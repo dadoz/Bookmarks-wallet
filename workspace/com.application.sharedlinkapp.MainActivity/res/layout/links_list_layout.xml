@@ -1,0 +1,55 @@
+	<LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:orientation="vertical"
+		android:background="@color/lightGrey">
+	
+
+	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayoutId"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_margin="10dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/icedWhite"
+   			android:orientation="horizontal">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			    android:text="user profile  >"/>
+			    
+		</LinearLayout>
+	    
+	    
+	    
+	    <TextView 
+	        android:id="@+id/introTextId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			android:textColor="@color/blue"
+			
+			android:textSize="20dip"	
+			android:layout_margin="10dip"
+			android:text="List of all links you stored before"/>
+	    
+	    <ListView 
+	        android:id="@+id/linksListId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			
+
+			android:layout_margin="10dip"	        
+	    	android:padding="10dip"
+	        
+	        android:background="@color/icedWhite">
+	        
+	    </ListView>
+	    	    	    
+	</LinearLayout>

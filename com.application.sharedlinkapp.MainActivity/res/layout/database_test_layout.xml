@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:background="@color/lightGrey">
+    
+
+    <TextView
+        android:id="@+id/textView1DB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="WORKING database functions plus testing"
+        />
+    <Button
+        android:id="@+id/button1DB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="delete all rows" />
+	<Button
+        android:id="@+id/button2DB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="delete row by id" />
+    
+    <Button
+        android:id="@+id/button3DB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="insert row" />
+    
+    <Button
+        android:id="@+id/button4DB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="get all rows" />
+    </LinearLayout>

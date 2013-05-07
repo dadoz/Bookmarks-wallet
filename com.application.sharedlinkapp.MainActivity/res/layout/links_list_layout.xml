@@ -1,0 +1,182 @@
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:scrollbarAlwaysDrawVerticalTrack="true" 
+		android:background="@color/wallpaperGrey">
+	    
+<!-- 	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayoutId"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_margin="10dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/icedWhite"
+   			android:orientation="horizontal">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			    android:text="user profile  >"/>
+			    
+		</LinearLayout>-->
+	    
+ 	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayoutId"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_marginTop="30dip"
+	   		android:layout_marginLeft="10dip"
+	   		android:layout_marginRight="10dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/cobaltBlue"
+   			android:orientation="horizontal">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:textColor="@color/icedWhite"
+			    android:text="Find smthing"
+				/>
+			    
+		</LinearLayout>
+	    
+ 	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayoutId"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_marginLeft="10dip"
+	   		android:layout_marginRight="10dip"
+	   		android:layout_marginBottom="30dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/icedWhite"
+   			android:orientation="vertical">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:textColor="@color/stoneBlack"
+			    android:text="U have to type smthing on"/>
+			<EditText 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:hint="find your key"/>
+						    
+		</LinearLayout>
+ 	    
+ 	    
+ 	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayout2Id"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_marginTop="10dip"
+	   		android:layout_marginLeft="10dip"
+	   		android:layout_marginRight="10dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/cobaltBlue"
+   			android:orientation="horizontal">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:textColor="@color/icedWhite"
+			    android:text="Get your search list >"/>
+			    
+		</LinearLayout>
+ 	    <LinearLayout
+	    
+        	android:id="@+id/userProfileLayoutId"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_marginLeft="10dip"
+	   		android:layout_marginRight="10dip"
+	   		android:layout_marginBottom="30dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/icedWhite"
+   			android:orientation="vertical">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:textColor="@color/stoneBlack"
+			    android:text="search list"/>
+						    
+		</LinearLayout>
+ 	    
+ 	    	    
+<!-- 	    <TextView 
+	        android:id="@+id/introTextId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			android:textColor="@color/blue"
+			
+			android:textSize="20dip"	
+			android:layout_margin="10dip"
+			android:text="List of all links you stored before"/>
+	  -->
+	  <LinearLayout
+	    
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	   		android:layout_marginTop="10dip"
+	   		android:layout_marginLeft="10dip"
+	   		android:layout_marginRight="10dip"
+
+	   		android:gravity="center_vertical"
+			android:background="@color/cobaltBlue"
+   			android:orientation="horizontal">
+			        
+			<TextView 
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip" 
+			   	android:textSize="20dip"
+			   	android:textColor="@color/icedWhite"
+			    android:text="Links list"
+				/>
+			    
+		</LinearLayout>   
+
+	    <ListView
+	        android:id="@+id/linksListId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dip"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@color/icedWhite"
+	        android:padding="10dip"
+	        android:scrollbarAlwaysDrawVerticalTrack="false"
+	        android:scrollbars="none" >
+	        
+	    </ListView>
+	    	    	    
+	</LinearLayout>
